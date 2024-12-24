@@ -10,9 +10,7 @@ ECF Développeur Web et Web Mobile --> Application web de covoiturage
 git clone https://github.com/RVidal34/app-ecoride.git
 ```
 
-### Installer les dépendances
-
-1. **Frontend :**
+### Installation du Frontend
 
 - Aller à la racine du dossier **frontend** :
 
@@ -20,10 +18,48 @@ git clone https://github.com/RVidal34/app-ecoride.git
 cd frontend
 ```
 
-- Installer `node_modules` :
+- Installer les dépendances `node_modules` :
 
 ```bash
 npm install
+```
+
+- Tester l'installation :
+
+```bash
+npm run dev
+```
+
+### Installation du Backend
+
+- Aller à la racine du dossier **backend** :
+
+```bash
+cd backend
+```
+
+- Installer les dépendances `node_modules` :
+
+```bash
+npm install
+```
+
+- Créez et configurez le fichier `.env` :
+
+```bash
+touch .env
+```
+
+- Copiez ceci dans votre `.env` en y mettants vos infos :
+
+```bash
+PORT=5000
+MONGO_URI=your_mongo_db_uri
+DB_HOST=your_mysql_host
+DB_USER=your_mysql_user
+DB_PASSWORD=your_mysql_password
+DB_NAME=ecoRide
+
 ```
 
 - Tester l'installation :
