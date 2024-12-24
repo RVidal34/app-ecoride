@@ -51,3 +51,12 @@ npm run dev
 - `init/*` : branche dédiée à l'initialisation du projet
 - `feature/*` : branche dédiée à une fonctionnalité
 - `bugFix/*` : branche dédiée à la résolution d'un bug
+
+## Bugs et Fix
+
+- Problème rencontrer lors de la configuration de **Bootstrap** :
+  \
+  `@import` est déprécié au profit de `@use`
+  \
+  Ne sachant pas comment résoudre le problème après plusieurs essais, et après plusieurs recherches sur différents sites et forums.
+  J'ai décidé de laisser le problème en l'état vu qu'il ne crée pas de bug majeur et n'empêche pas le bon fonctionnement de l'application.
