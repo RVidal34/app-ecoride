@@ -1,26 +1,36 @@
-# app-ecoride
+# App - EcoRide
 
 ECF Développeur Web et Web Mobile --> Application web de covoiturage
 
 ## Installation
 
-1. Clonez le dépôt :
+### Clonez le dépôt
 
-   ```bash
-   git clone https://github.com/RVidal34/app-ecoride.git
-   ```
+```bash
+git clone https://github.com/RVidal34/app-ecoride.git
+```
 
-2. Installez les dépendances
+### Installer les dépendances
 
-   ```bash
-   npm install
-   ```
+1. **Frontend :**
 
-3. Lancez le serveur local :
+- Aller à la racine du dossier **frontend** :
 
-   ```bash
-   npm run dev
-   ```
+```bash
+cd frontend
+```
+
+- Installer `node_modules` :
+
+```bash
+npm install
+```
+
+- Tester l'installation :
+
+```bash
+npm run dev
+```
 
 ## Fonctionnalité
 
@@ -38,4 +48,6 @@ ECF Développeur Web et Web Mobile --> Application web de covoiturage
 
 - `main` : version stable
 - `develop` : développement en cours
+- `init/*` : branche dédiée à l'initialisation du projet
 - `feature/*` : branche dédiée à une fonctionnalité
+- `bugFix/*` : branche dédiée à la résolution d'un bug
