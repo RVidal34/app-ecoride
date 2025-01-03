@@ -9,4 +9,15 @@ body {
 h1 {
   text-align: center;
   margin-top: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #256c9b;
+}
+.container h1 {
+  font-size: 2rem;
 }/*# sourceMappingURL=main.css.map */
