@@ -1,7 +1,7 @@
 const Home = () => {
   return (
     <>
-      <h1>Page Accueil</h1>
+      <h1>Bienvenue sur EcoRide</h1>
     </>
   );
 };
