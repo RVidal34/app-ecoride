@@ -12,3 +12,19 @@ h1 {
   text-align: center;
   margin-top: 20px;
 }
+
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  @include center;
+  height: 100vh;
+  background-color: lighten($primary-color, 10%);
+
+  h1 {
+    font-size: 2rem;
+  }
+}
