@@ -1,7 +1,9 @@
+import AppRouter from "./router/AppRouter";
+
 function App() {
   return (
     <>
-      <h1>Bienvenu sur EcoRide</h1>
+      <AppRouter />
     </>
   );
 }
